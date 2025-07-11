@@ -1,0 +1,55 @@
+/* Selector */
+html {
+  font-size: 10px;
+  /* Phông chữ */
+  font-family: "Roboto", sans-serif;
+  /* Thay đổi màu nền trang */
+  background-color: #00539f;
+}
+
+body {
+  /* Chỉ định chiều rộng */
+  width: 600px;
+  /* Khoảng cách lề của phần tử */
+  margin: 0 auto;
+  /* Màu nền nội dung trang */
+  background-color: #ff9500;
+  /* Khoảng cách nội dung của phần tử */
+  padding: 0 20px 20px 20px;
+  /* Đường viền của phần tử */
+  border: 5px solid black;
+}
+
+h1 {
+  /* Cỡ chữ */
+  font-size: 60px;
+  /* Căn giữa tiêu đề nội dung */
+  text-align: center;
+  /* Khoảng cách lề của nội dung tiêu đề */
+  margin: 0;
+  /* Khoảng cách nội dung của tiêu đề */
+  padding: 20px 0;
+  /* Màu chữ của tiêu đề */
+  color: #00539f;
+  /* Bóng đổ chữ của tiêu đề */
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  /* Chiếm toàn bộ không gian của thẻ cha */
+  display: block;
+  /* Căn giữa hình ảnh */
+  margin: 0 auto;
+  /* Gía trị chiều rộng tối đa của hình ảnh */
+  max-width: 100%;
+}
+
+p,
+li {
+  /* Khai báo */
+  font-size: 16px;
+  /* Khoảng các giữ các dòng */
+  line-height: 2;
+  /* Khoảng cách giữ các từ */
+  letter-spacing: 1px;
+}
